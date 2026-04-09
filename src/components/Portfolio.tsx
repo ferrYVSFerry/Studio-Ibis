@@ -1,20 +1,14 @@
 import { motion } from 'motion/react';
 import { Instagram, Heart, MessageCircle } from 'lucide-react';
-import img1 from '../assets/imgs/img1.heic.jpeg';
-import img2 from '../assets/imgs/img2.heic.jpeg';
-import img3 from '../assets/imgs/img3.heic.jpeg';
-import img4 from '../assets/imgs/img4.heic.jpeg';
-import img5 from '../assets/imgs/img5.heic.jpeg';
-import img6 from '../assets/imgs/img6.heic.jpeg';
 
 // Simulated Instagram feed data (in a real app, this would be fetched via Instagram Graph API)
 const instagramPosts = [
-  { id: 1, likes: 452, comments: 18, src: img1 },
-  { id: 2, likes: 389, comments: 14, src: img2 },
-  { id: 3, likes: 512, comments: 24, src: img3 },
-  { id: 4, likes: 289, comments: 8, src: img4 },
-  { id: 5, likes: 634, comments: 45, src: img5 },
-  { id: 6, likes: 421, comments: 18, src: img6 },
+  { id: 1, likes: 452, comments: 18, src: "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?q=80&w=894&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: 2, likes: 389, comments: 14, src: "https://plus.unsplash.com/premium_photo-1707372367558-7421b2982ade?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: 3, likes: 512, comments: 24, src: "https://plus.unsplash.com/premium_photo-1707674004083-ca21b6aaca38?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: 4, likes: 289, comments: 8, src: "https://images.unsplash.com/photo-1562962230-16e4623d36e6?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: 5, likes: 634, comments: 45, src: "https://images.unsplash.com/photo-1604374376934-2df6fad6519b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { id: 6, likes: 421, comments: 18, src: "https://images.unsplash.com/photo-1617196556242-d0de7c06a13e?q=80&w=744&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
 ];
 
 export default function Portfolio() {
