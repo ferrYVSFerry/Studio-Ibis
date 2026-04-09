@@ -3,12 +3,12 @@ import { Instagram, Heart, MessageCircle } from 'lucide-react';
 
 // Simulated Instagram feed data (in a real app, this would be fetched via Instagram Graph API)
 const instagramPosts = [
-  { id: 1, likes: 452, comments: 18, src: '/imgs/618676629_17937819417112865_6326126872547932256_n.heic.jpeg' },
-  { id: 2, likes: 389, comments: 14, src: '/imgs/628415180_17940963603112865_8653374435555317423_n.heic.jpeg' },
-  { id: 3, likes: 512, comments: 24, src: '/imgs/632078877_17942182944112865_1385841156675612687_n.heic.jpeg' },
-  { id: 4, likes: 289, comments: 8, src: '/imgs/656450994_17951359920112865_2534222724882500206_n.heic.jpeg' },
-  { id: 5, likes: 634, comments: 45, src: '/imgs/658419572_17952963015112865_8265285273031133686_n.heic.jpeg' },
-  { id: 6, likes: 421, comments: 18, src: '/imgs/658818194_17952963435112865_7361167323817624029_n.heic.jpeg' },
+  { id: 1, likes: 452, comments: 18, src: './imgs/618676629_17937819417112865_6326126872547932256_n.heic.jpeg' },
+  { id: 2, likes: 389, comments: 14, src: './imgs/628415180_17940963603112865_8653374435555317423_n.heic.jpeg' },
+  { id: 3, likes: 512, comments: 24, src: './imgs/632078877_17942182944112865_1385841156675612687_n.heic.jpeg' },
+  { id: 4, likes: 289, comments: 8, src: './imgs/656450994_17951359920112865_2534222724882500206_n.heic.jpeg' },
+  { id: 5, likes: 634, comments: 45, src: './imgs/658419572_17952963015112865_8265285273031133686_n.heic.jpeg' },
+  { id: 6, likes: 421, comments: 18, src: './imgs/658818194_17952963435112865_7361167323817624029_n.heic.jpeg' },
 ];
 
 export default function Portfolio() {
