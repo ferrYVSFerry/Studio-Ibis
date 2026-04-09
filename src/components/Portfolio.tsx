@@ -1,14 +1,20 @@
 import { motion } from 'motion/react';
 import { Instagram, Heart, MessageCircle } from 'lucide-react';
+import img1 from '../assets/imgs/img1.heic.jpeg';
+import img2 from '../assets/imgs/img2.heic.jpeg';
+import img3 from '../assets/imgs/img3.heic.jpeg';
+import img4 from '../assets/imgs/img4.heic.jpeg';
+import img5 from '../assets/imgs/img5.heic.jpeg';
+import img6 from '../assets/imgs/img6.heic.jpeg';
 
 // Simulated Instagram feed data (in a real app, this would be fetched via Instagram Graph API)
 const instagramPosts = [
-  { id: 1, likes: 452, comments: 18, src: './imgs/img1.heic.jpeg' },
-  { id: 2, likes: 389, comments: 14, src: './imgs/img2.heic.jpeg' },
-  { id: 3, likes: 512, comments: 24, src: './imgs/img3.heic.jpeg' },
-  { id: 4, likes: 289, comments: 8, src: './imgs/img4.heic.jpeg' },
-  { id: 5, likes: 634, comments: 45, src: './imgs/img5.heic.jpeg' },
-  { id: 6, likes: 421, comments: 18, src: './imgs/img6.heic.jpeg' },
+  { id: 1, likes: 452, comments: 18, src: img1 },
+  { id: 2, likes: 389, comments: 14, src: img2 },
+  { id: 3, likes: 512, comments: 24, src: img3 },
+  { id: 4, likes: 289, comments: 8, src: img4 },
+  { id: 5, likes: 634, comments: 45, src: img5 },
+  { id: 6, likes: 421, comments: 18, src: img6 },
 ];
 
 export default function Portfolio() {
